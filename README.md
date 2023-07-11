@@ -24,6 +24,33 @@ The Play Store, being a popular platform for app distribution, serves as a valua
 
 By leveraging the findings from this project, businesses can align their strategies with market demands, improve user satisfaction, drive revenue growth, and ultimately achieve long-term success in the dynamic and ever-evolving mobile app industry.
 
+## METHODOLOGY
+To conduct our analysis, we followed a systematic approach that involved the following steps:
+
+Data Collection: We obtained the Play Store dataset from reliable sources, ensuring it contained comprehensive information about various apps available on the platform.
+
+Let's take a look at the data, which consists of two files:
+
+playstore data.csv: contains all the details of the applications on Google Play. There are 13 features that describe a given app.
+user_reviews.csv: contains 100 reviews for each app, most helpful first. The text in each review has been pre-processed and attributed with three new features: Sentiment (Positive, Negative or Neutral), Sentiment Polarity and Sentiment Subjectivity.
+Data Preprocessing: Prior to analysis, we cleaned the dataset by handling missing values, removing duplicates, and addressing any inconsistencies or errors.
+
+### Exploratory Data Analysis (EDA):
+
+Exploratory data analysis (EDA) is used by data scientists to analyze and investigate data sets for patterns, and anomalies (outliers), and form hypotheses based on our understanding of the dataset and summarize their main characteristics, often employing data visualization methods. It is an important step in any Data Analysis or Data Science project. It helps determine how best to manipulate data sources to get the answers you need.
+
+EDA involves generating summary statistics for numerical data in the dataset and creating various graphical representations to understand the data better and make it more attractive and appealing.
+
+USing EDA techniques, we explored the dataset to gain insights into different aspects of the Play Store data. This included analyzing variables such as app installations, reviews, revenue, categories, and other relevant factors.
+
+### Data Visualization:
+
+We utilized data visualization techniques, including bar charts, pie charts, histograms, and scatter plots, to effectively represent the patterns and trends discovered during the analysis phase.
+
+### Interpretation:
+
+Through collaborative discussions, we interpreted the findings of our analysis, drawing conclusions and extracting meaningful insights that could address the problem statements and provide value to businesses operating in the mobile app market.
+
 ## OVERAL ANALYSIS OF PLAY STORE DATA INACCORDANCE TO BUSINESS CONTEXT
 The analysis of the Play Store data revealed several key findings. Firstly, apps developed by Google have the highest number of installations, indicating their widespread usage and usefulness in daily life. The "Social" category emerged as the most installed category, followed by "Travel and Locals" and "Video Players." In terms of reviews, Facebook, WhatsApp Messenger, and Instagram stood out as the most reviewed apps, all owned by META.
 
